@@ -53,4 +53,22 @@ interaction along with the current song.
 ## Results 
 ![Evaluation](https://github.com/karthikrayan/spotify-track-skip-prediction/blob/main/Images/Results.png)
 
+## Machine learning interpretation with LIME 
 
+A brief analysis was done on how the features were used by the model
+using feature importance scores and LIME ( Local Interpretable
+Model-agnostic Explanations ). When looking at the interpretations,
+The dataset features related to the user behavior such as
+hist_user_behavior_reason_end, hist_user_behavior_reason_start for the
+current song as well as the previous songs play a vital role in the
+prediction process.
+
+In this test case of the user skipping the song, we can see how the model
+predicted this:
+![lime1](https://github.com/karthikrayan/spotify-track-skip-prediction/blob/main/Images/Lime1.png)
+
+For values of these historical features, we can see the weightage given
+by the model, and the side/color signifies which class does the feature
+provide importance.
+
+![lime2](https://github.com/karthikrayan/spotify-track-skip-prediction/blob/main/Images/Lime2.png)
