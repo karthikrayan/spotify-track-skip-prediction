@@ -72,3 +72,16 @@ by the model, and the side/color signifies which class does the feature
 provide importance.
 
 ![lime2](https://github.com/karthikrayan/spotify-track-skip-prediction/blob/main/Images/Lime2.png)
+
+## Conclusion
+
+    In this project the main focus was on understanding a user’s interaction
+    within a single session. Hence the imposing of the sequential
+    interactions was critical to compare and analyze. The results from the
+    models do show that the sequential information does result in an
+    improvement in the performance of the models. The Gradient Boosted
+    Trees outperform the basic RNN with the help of the imposed sequential
+    information. And from the inference from the model interpretations, we
+    can conclude that user behavior pattern feedback signals like a reason
+    for ending the previous song, which button leads to the current song, the
+    click row, etc play a vital role in predicting the skip interactions.
